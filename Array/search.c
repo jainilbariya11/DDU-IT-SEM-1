@@ -5,7 +5,7 @@ int main()
   int b,match=0,pos=0;
 
   printf("enter number of elements: ");
- scanf("%d",&N); //5
+ scanf("%d",&N); //you want array size.
 printf("---------------------------------\n"); 
      printf("enter the array:\n");
   for(i=0;i<N;i++)
@@ -26,7 +26,7 @@ printf("---------------------------------\n");
 
 for(i=0;i<N;i++)
    {
-    if(a[i]==b)
+    if(a[i]==b) //find number
     { 
         match++;
         pos=i;
