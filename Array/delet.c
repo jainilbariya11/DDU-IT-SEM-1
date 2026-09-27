@@ -37,7 +37,7 @@ for(i=0;i<N;i++)//loop for checking the number in array
     }
   printf(" index a[%d]= %d.",pos,b);
    i--; 
-   
+   break; //The given program is for deleting first occurrence only ! .  For remove all occurences just remove break; from the loop.
  }  
 }
   
@@ -60,5 +60,5 @@ printf("new array after deletion is:\n");
 printf("---------------------------------\n"); //decorative line
 return 0;
 }
-
+//The given program is for deleting first occurrence, to remove all occurences just remove break; from the loop.//
 
