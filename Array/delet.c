@@ -60,3 +60,5 @@ printf("new array after deletion is:\n");
 printf("---------------------------------\n"); //decorative line
 return 0;
 }
+
+//The given program is for deleting first occurrence, to remove all occurences just remove break; from the loop.//
