@@ -4,7 +4,7 @@
  {
     char a[100],b[100]; 
     int i,j,k;
-  printf("Enter the string :\n"):
+  printf("Enter the string :\n");
     gets(a); 
     j=strlen(a); 
     k=j-1;
