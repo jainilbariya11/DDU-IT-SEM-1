@@ -10,9 +10,9 @@ int main()
  int smax=0,posr,posc;
 
 
-printf("enter the value of r : ");
+printf("enter the value of row  r : ");
 scanf("%d",&r);
-printf("enter the value of c : ");
+printf("enter the value of column  c : ");
 scanf("%d",&c);
 
 for(i=0;i<r;i++)//entering the values of 2D array a
