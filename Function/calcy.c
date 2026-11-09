@@ -26,7 +26,7 @@ int main()
     printf("Enter the 2nd number b: ");
     scanf("%f",&b);
   
-    printf("\n Addition --> + \n Subtraction --> - \n Multiplication --> * \n Division --> / \n");
+    printf("\n Addition --> + \n Subtraction --> - \n Multiplication --> * \n Division --> / \n"); //sign declare
     printf("\nEnter your operator according above list  : \n");
     
     printf("Enter operator (+, -, *, /): ");
@@ -52,18 +52,17 @@ int main()
     }
     
       else if(opp== '/')
-    {
-     if(b!=0)
      {
-       result=div(a,b);  //function call.
-          printf("\n--> Division = %.2f\n\n",result);
+          if(b!=0)
+         {
+           result=div(a,b);  //function call.
+           printf("\n--> Division = %.2f\n\n",result);
+         }
+          else
+         {
+           printf("\nCannot divide by zero");
+         }
      }
-     else
-     {
-        printf("\nCannot divide by zero");
-     }
-
-    }
   
     else
     {
