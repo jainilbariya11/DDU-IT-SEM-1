@@ -27,7 +27,7 @@
           if(*(p+n*i+j)!=*(p+n*j+i))
           { 
            symmetric=0;
-        goto abc;
+        goto abc; // Also use break instead of goto.
           }
         }
      }
